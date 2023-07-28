@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000040;
+}
+.banner{
+    width: 100%;
+    margin: auto;
+    padding: 0% 0% 0% 0%;
+    position: relative;
+}
+.banner .images{
+    width: 100%;
+    margin: auto;
+    background: url(../img/home/Banner.png) no-repeat;
+    background-size: 100% auto;
+    padding: 0% 0% 60% 0%;
+    margin-top: 0%;
+}
+.banner .header_logo{
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+.banner .header_logo img{
+    width: 100%;
+}
+.banner .btndownload{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 0px;
+}
+.banner .btndownload img{
+    width: 60%;
+    margin: auto;
+}
+.video{
+    width: 65%;
+    margin: auto;
+    padding: 0% 0% 0% 0%;
+    position: relative;
+}
+.video video{
+    width: 85%;
+    margin: auto;
+    border-radius: 11%;
+    padding: 5px;
+}
+.video .images{
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 7.5%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
+.video .images img{
+    width: 100%;
+    height: 100%;
+}
+
+.icon{
+    width: 65%;
+    margin: auto;
+}
+
+.slide{
+    width: 63%;
+    margin: auto;
+    position: relative;
+}
+.slide .images{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    /* height: 100%; */
+    z-index: 2;
+}
+.slide .images img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.user{
+    width: 65%;
+    margin: auto;
+}
+
+footer{
+    background-color: #000036;
+    width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .video,
+    .icon,
+    .slide,
+    .user{
+        width: 100%;
+        padding: 5px;
+    }
+    .banner .header_logo{
+        width: 60%;
+        position: absolute;
+        top: 0;
+        left: 20%;
+    }
+    .user .main-box{
+        display: inline-block;
+        width: 100%;
+        padding: 0px !important;
+    }
+    .user .main-box .col-span-2{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    .user .main-box .col-span-2 img{
+        width: 50%;
+        padding: 5px;
+    }
+    .user .main-box .col-span-10{
+        width: 100%;
+        margin: auto;
+    }
+    .user .main-box .col-span-10 h1{
+        font-size: 18px;
+        text-align: center;
+    }
+    .user .main-box .col-span-10 p{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    footer .main{
+        display: inline-block;
+        width: 100%;
+    }
+    footer .main .logo{
+        width: 100%;
+    }
+    footer .main .logo img{
+        width: 100px;
+    }
+    footer .main .logo .text-logo img{
+        width: 200px;
+    }
+    footer .main .btn{
+        width: 70%;
+        margin: auto;
+        padding: 10px 0px;
+    }
+    footer .text-footer p{
+        font-size: 18px;
+    }
+    footer .text-footer h1{
+        font-size: 20px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .video,
+    .icon,
+    .slide,
+    .user{
+        width: 100%;
+        padding: 5px;
+    }
+    .banner .header_logo{
+        width: 60%;
+        position: absolute;
+        top: 0;
+        left: 20%;
+    }
+    .user .main-box{
+        display: inline-block;
+        width: 100%;
+        padding: 0px !important;
+    }
+    .user .main-box .col-span-2{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    .user .main-box .col-span-2 img{
+        width: 50%;
+        padding: 5px;
+    }
+    .user .main-box .col-span-10{
+        width: 100%;
+        margin: auto;
+    }
+    .user .main-box .col-span-10 h1{
+        font-size: 18px;
+        text-align: center;
+    }
+    .user .main-box .col-span-10 p{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    footer .main{
+        display: inline-block;
+        width: 100%;
+    }
+    footer .main .logo{
+        width: 100%;
+    }
+    footer .main .logo img{
+        width: 100px;
+    }
+    footer .main .logo .text-logo img{
+        width: 200px;
+    }
+    footer .main .btn{
+        width: 70%;
+        margin: auto;
+        padding: 10px 0px;
+    }
+    footer .text-footer p{
+        font-size: 18px;
+    }
+    footer .text-footer h1{
+        font-size: 20px;
+    }
+}
